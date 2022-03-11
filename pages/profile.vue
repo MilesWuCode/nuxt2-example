@@ -3,7 +3,7 @@
     <h1>Profile</h1>
     auth:{{ $auth.user }}
     <hr />
-    <!-- api:{{ user }} -->
+    api:{{ user }}
     <hr />
     <button @click="getUser">Get User</button>
     get:{{ getUserData }}
